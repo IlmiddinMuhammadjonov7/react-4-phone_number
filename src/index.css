@@ -1,0 +1,117 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  background-color: #5A776D;
+  height: 100vh;
+  padding-top: 60px;
+}
+
+.main_list{
+  background-color: #273056;
+  width: 40%;
+  margin: auto;
+  padding: 30px;
+  border-radius: 20px;
+}
+
+.joy{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.joy img{
+  width: 50px;
+}
+
+.joy input{
+  outline: none;
+  font-size: 35px;
+  border: none;
+  margin-left: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  width: 100%;
+}
+
+.tugmalar{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+  margin-top: 30px;
+}
+
+.tugmalar button, .tugma_nol{
+  font-size: 35px;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  user-select: none;
+  border: 1px solid currentColor;
+}
+
+.tugmalar button:hover, .tugma_nol:hover{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  transition: 0.3s;
+}
+
+.tugmalar button:active, .tugma_nol:active{
+  background-color: white;
+  color: gray;
+  border: 1px solid white;
+}
+
+.tugma_clear{
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  font-size: 35px;
+  /* margin-top: 30px; */
+  background-color: red;
+  color: white;
+  /* border: none; */
+  cursor: pointer;
+  user-select: none;
+  border: 2px solid currentColor;
+}
+
+.tugma_clear:hover{
+  background-color: white;
+  color: red;
+  border: 2px solid red;
+  transition: 0.3s;
+
+}
+
+.tugma_clear:active{
+  background-color: rgb(254, 92, 92);
+  color: white;
+  border: 2px solid white;
+}
+
+.bottom{
+  display: grid;
+  grid-template-columns: 1fr 2.2fr;
+  gap: 30px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.qism{
+  font-size: 17px;
+  text-align: center;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-bottom: 20px;
+}
+
+.qism span{
+  color: red;
+}
